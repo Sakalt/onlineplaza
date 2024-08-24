@@ -1,0 +1,19 @@
+{
+  "name": "online-plaza",
+  "version": "1.0.0",
+  "description": "An online plaza with chat functionality and mobile support.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
