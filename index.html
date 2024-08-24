@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Plaza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <div id="chatContainer">
+        <div id="messages"></div>
+        <div id="emojiContainer">
+            <button class="emoji-button" data-emoji="😀">😀</button>
+            <button class="emoji-button" data-emoji="😢">😢</button>
+            <!-- Add more emoji buttons as needed -->
+        </div>
+        <input id="chatInput" type="text" placeholder="Type a message...">
+        <div id="controls">
+            <button id="moveLeft">←</button>
+            <button id="moveRight">→</button>
+            <button id="jump">↑</button>
+            <button id="attack">⚔️</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js"></script>
+    <script src="/game.js"></script>
+</body>
+</html>
